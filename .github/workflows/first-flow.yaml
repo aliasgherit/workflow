@@ -7,4 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run a script
         run: ls
+      - uses: actions/checkout@v4
+      - name: run second script
+        run: hostname
         
